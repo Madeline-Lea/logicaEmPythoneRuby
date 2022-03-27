@@ -15,7 +15,7 @@ num2 = int(input("Digite outro numero: "))
 
 """
  As variáveis (soma, subtracao, multiplicacao, divisao)
- tem o trabalho de fazer de fato a operação das variáveis (num1 e num2).
+ tem o trabalho de fazer a operação das variáveis (num1 e num2).
 """
 soma = num1 + num2
 subtracao = num1 - num2
