@@ -29,11 +29,13 @@ if delta < 0
     puts("Não possui raizes reais.")
 else
     # Aqui é feito o calculo final de Bhaskara, fazendo em si a divisão e a multiplicação para achar a raiz quadrada.
-    x1 = -b + CMath.sqrt(delta) / (2 * a)
-    x2 = -b - CMath.sqrt(delta) / (2 * a)
+    x1 = (-b + CMath.sqrt(delta)) / (2 * a)
+    x2 = (-b - CMath.sqrt(delta)) / (2 * a)
     # O final de tudo, aqui mostra ao usuário à raiz de A e a raiz de B.
     puts("""
         A raiz 1 é = #{x1},
         A raiz 2 é = #{x2}
     """) 
 end
+
+# Fim do Algoritmo 
